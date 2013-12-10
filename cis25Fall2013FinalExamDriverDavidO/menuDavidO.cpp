@@ -14,7 +14,7 @@ void printMenu(RectangleDavidO*& rec1, RectangleDavidO*& rec2,RectangleDavidO*& 
                                  CircleDavidO*& cir1, CircleDavidO*& cir2,CircleDavidO*& cir3,
                                  CylinderDavidO*& cyl1, CylinderDavidO*& cyl2, CylinderDavidO*& cyl3) {
     int option;
-    FractionDavidO obj[2];
+ 
     int i = 0;
 cout << "\n**************************************************************"
 << "\n* MENU *"
@@ -268,7 +268,7 @@ void getSmallestAreaAll(RectangleDavidO*& rec1, RectangleDavidO*& rec2,Rectangle
 	}
 
 
-		cout << iAry[1] << endl;
+		cout << iAry[0] << endl;
 		 
 	
 	
@@ -344,7 +344,7 @@ void getSmallestVolumeAll(BoxDavidO*& box1, BoxDavidO*& box2,BoxDavidO*& box3,
 
 
 	
-		cout << iAry[1] << endl;
+		cout << iAry[0] << endl;
 	
 		 
 	

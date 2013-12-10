@@ -40,21 +40,6 @@ public:
 
 void fractionInit(FractionDavidO *&);
 
-void init(FractionDavidO *&, FractionDavidO *&);
-
-FractionDavidO add(const FractionDavidO &, const FractionDavidO &);
-
-FractionDavidO subtract(const FractionDavidO &, const FractionDavidO &);
-
-FractionDavidO multiply(const FractionDavidO &, const FractionDavidO &);
-
-FractionDavidO divide(const FractionDavidO &, const FractionDavidO &);
-
-void printDavidO(const FractionDavidO &,
-                 const FractionDavidO &, const FractionDavidO &);
-
-//void mainMenuDavidOinney(void);
-//void headerDavidOinney(void);
 int gcd(int, int);
 
 
